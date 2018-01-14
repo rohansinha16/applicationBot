@@ -1,0 +1,20 @@
+{
+  "name": "applicationbot",
+  "version": "1.0.0",
+  "description": "Bot that recieves applications.",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "node index.js"
+  },
+  "author": "Rohan Sinha & Sam Flyn",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.15.1",
+    "express": "^4.13.4",
+    "node-fetch": "^1.5.1",
+    "node-uuid": "^1.4.7",
+    "node-wit": "^3.3.2",
+    "request": "^2.72.0"
+  }
+}
